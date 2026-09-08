@@ -1,0 +1,7 @@
+{
+  "variation": "absent-path-relay",
+  "boundary": "Private resolver and controlled communication relay",
+  "transport": ["WebRTC", "private SIP namespace", "platform messaging"],
+  "hot_path": "No effective route is resolved until authority succeeds",
+  "claim_limit": "Every equivalent route and alternate identifier must be inventoried and controlled"
+}

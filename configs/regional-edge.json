@@ -1,0 +1,7 @@
+{
+  "variation": "regional-edge",
+  "boundary": "Regional verifier before CPaaS, SIP, WebRTC, messaging, or notification allocation",
+  "transport": ["SIP", "WebRTC", "HTTP", "messaging"],
+  "hot_path": "Pre-issued authority, local keys, fresh replicated epochs, atomic regional state",
+  "claim_limit": "Stale replicas must fail closed or escalate"
+}

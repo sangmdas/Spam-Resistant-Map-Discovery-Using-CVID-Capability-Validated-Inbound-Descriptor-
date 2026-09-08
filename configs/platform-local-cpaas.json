@@ -1,0 +1,7 @@
+{
+  "variation": "platform-local-cpaas",
+  "boundary": "Platform-controlled callback or CPaaS gateway",
+  "transport": ["HTTP", "SIP", "PSTN mediation"],
+  "hot_path": "Local authority verification plus atomic quota reservation",
+  "claim_limit": "Blocked-path or pre-routing only if an ordinary public number remains reachable"
+}

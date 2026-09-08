@@ -1,0 +1,7 @@
+{
+  "variation": "high-assurance-attested",
+  "boundary": "HSM, TEE, secure enclave, or attested verifier controlling release",
+  "transport": ["SIP", "WebRTC", "CPaaS", "device broker"],
+  "hot_path": "Act-specific verification plus protected state; attestation is an additional predicate",
+  "claim_limit": "Attestation does not replace communication authority or bypass closure"
+}

@@ -1,0 +1,7 @@
+{
+  "variation": "device-assisted",
+  "boundary": "Cloud finality verifier plus operating-system communication or notification broker",
+  "transport": ["push", "device notification", "assistant action", "call handoff"],
+  "hot_path": "Cloud verifies business/query/quota; device verifies user presence, revocation, and device binding",
+  "claim_limit": "Both cloud and device effect paths must enforce the same bounded authority"
+}
